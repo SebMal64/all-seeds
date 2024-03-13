@@ -1,0 +1,34 @@
+** {
+    margin: 0;
+    box-sizing: content-box;
+    overflow: hidden;
+}
+
+:root {
+    --rosado: #FF8580;
+    --sky: #77C7CE;
+}
+
+.fondo {
+    background: var(--sky);
+}
+
+.seccion {
+    height: 100vh;
+    padding: 20px 130px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    z-index: 3;
+}
+.esfera {
+    background-color: var(--rosado);
+    position: absolute;
+    z-index: 1;
+    height: 100vh;
+    width: 600px;
+    border-radius: 19% 68% 41% 78% / 5% 36% 61% 13%;
+
+
+
+}

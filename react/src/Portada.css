@@ -1,0 +1,34 @@
+
+:root {
+    --rosado: #FF8580;
+    --sky: #77C7CE;
+}
+.main {
+        height: 100vh;
+        padding: 20px 130px;
+        align-items: center;
+        overflow: hidden;
+        z-index: 3;
+    }
+
+.bloque {
+    background-color: red;
+    height: auto;
+    padding: 0 30px;
+    width: 40%;
+}
+.tit-1 {
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+.tit-2 {
+    margin-bottom: 3rem;
+}
+.btn-portada {
+    background: var(--rosado);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 30px;
+}
