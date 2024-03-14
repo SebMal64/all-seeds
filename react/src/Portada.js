@@ -5,8 +5,8 @@ import {BrowserRouter as Router} from 'react-router-dom';
 function App() {
   return (
     <div className="main">
-      <Router>
-      <Navegador /></Router>
+      
+      <Navegador />
       <div>
       <div className="bloque">
           <h1 className='tit-1'>Todo saludable</h1>
