@@ -22,7 +22,7 @@ function Navegador() {
                 <img alt="logo" className="img-logo" src={logo}></img>
             </div>
             <ul className="items item-2">
-                <li className="word">mascare</li>
+                <li className="word">mascfevsd</li>
                 <li className="word">mascare</li>
                 <li className="word">mascare</li>
 
