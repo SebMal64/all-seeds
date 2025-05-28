@@ -12,7 +12,7 @@ function Navegador() {
                     <li className="word">
                         <Link to="/about-us">About us</Link>
                     </li>
-                    <li className="word">nosotros</li>
+                    <li className="word">nosotdfros</li>
                     <li className="word">catálogo</li>
 
 
