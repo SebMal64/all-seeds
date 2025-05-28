@@ -13,18 +13,8 @@ root.render(
   <React.StrictMode>    
   
 
-    <div className='fondo'>
+
         <Portada />
-        
-        <div className='craft'>
-          <div className='esfera'></div>
-      <div className='seccion'>
-        <Productos/></div>
-      </div>
-      <div className='seccion'>
-        <AboutUs />
-        </div>
-    </div>
        
   </React.StrictMode>
 );

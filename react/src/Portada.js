@@ -1,6 +1,5 @@
 import './Portada.css';
 import Navegador from './Navegador';
-import {BrowserRouter as Router} from 'react-router-dom';
 
 function App() {
   return (
