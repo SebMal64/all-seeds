@@ -1,36 +1,18 @@
 import './AboutUs.css'
-import icon1 from './assets/pictures/icon1.png';
-import icon2 from './assets/pictures/icon2.png';
-import icon3 from './assets/pictures/icon3.png';
 
 function AboutUs() {
     return (
-        <div >
-            <div className="about">
 
-                <div className="foto shadow">
-                    <img alt="foto"></img>
-                </div>
-
-                <div className="cont">
-                    <h2 className="tit">Sobre nosotros</h2>
-                    <p className="text">Bienvenido a All Seeds, donde la pasión por la repostería se une con un compromiso inquebrantable con tu bienestar. Nos enorgullecemos de crear exquisitos manjares que deleitan tu paladar sin comprometer tu salud.</p>
-                    <div className="cont-pic">
-                        <div className="pic shadow">
-                            <img src={icon1} alt="icono" />
-                            <span className="span-icon">Libre de gluten</span>
-                        </div>
-                        <div className="pic shadow">
-                            <img src={icon2} alt="icono" />
-                            <span className="span-icon">Endulzantes naturales</span>
-                        </div>
-                        <div className="pic shadow">
-                            <img src={icon3} alt="icono" />
-                            <span className="span-icon">Opcion vegana</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>)
+                <section className="bg-success py-10 px-6 max-w-4xl mx-auto text-center">
+      <h2 className="text-3xl font-bold mb-4">About us</h2>
+      <p className="text-lg text-gray-700 mb-6">
+En AllSeeds, creemos que lo saludable también puede ser delicioso. Desde hace más de 5 años, nos dedicamos a elaborar postres nutritivos a base de insumos 100% orgánicos, seleccionados con cuidado para brindarte lo mejor de la naturaleza en cada bocado. Nuestra pasión es ofrecer opciones dulces, libres de culpa, pensadas para quienes buscan cuidar su bienestar sin renunciar al sabor.      </p>
+      <ul className="text-left text-gray-600 space-y-2">
+        <li>🌿 Ingredientes 100% naturales</li>
+        <li>💚 Opciones veganas</li>
+        <li>🍯 Endulzados con dátiles, panela o stevia</li>
+      </ul>
+    </section>
+        )
 }
 export default AboutUs
