@@ -14,3 +14,8 @@
     align-items: center;
 
 }
+.square {
+    background-color: purple;
+    height: 100vh;
+    
+}
