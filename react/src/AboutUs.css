@@ -9,13 +9,44 @@
 }
 .about {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
     justify-content: space-around;
-    align-items: center;
+    align-content: center;
+    
+
+    /*display: flex;
+  align-items: center;
+  justify-content: space-between; Espacio entre elementos 
+  gap: 2rem; Separación entre imagen y texto 
+  padding: 2rem;*/
 
 }
 .square {
-    background-color: purple;
+    background-color: var(--claro);
+    align-content: center;
     height: 100vh;
+    width:100%;
     
+}
+.text-about {
+    padding: 7rem;
+    text-align: left;
+    font-size: 1.25rem;
+}
+ul {
+    list-style: none;
+   
+}
+
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .imagen {
+    width: 100%;
+    max-width: 400px;
+  }
 }
