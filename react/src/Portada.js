@@ -1,14 +1,12 @@
 import './Portada.css';
-import Navegador from './Navegador';
 
-function App() {
+function Portada() {
   return (
-    <div className="main">
-      
-      <Navegador />
-    </div>
+    <section>
+      Hola
+    </section>
    
   );
 }
 
-export default App;
+export default Portada;
