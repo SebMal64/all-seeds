@@ -1,16 +1,14 @@
 
 
 .cont-item {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     background: var(--sky);
     border-radius: 20px;
     border: none;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
    
-}
-.text-enlace {
-     
 }
