@@ -1,0 +1,16 @@
+
+
+.cont-item {
+    height: 250px;
+    width: 250px;
+    background: var(--sky);
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.text-enlace {
+     
+}
