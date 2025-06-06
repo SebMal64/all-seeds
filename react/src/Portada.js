@@ -6,7 +6,7 @@ function Portada() {
   return (
     <section className='section-portada'>
 
-      <div className='contenedor'>
+      <div className='contenedor1'>
           {/* <Items name="carta dia de la madre" 
            picture={pastel} link="https://drive.google.com/file/d/1QiuNROxQ9mrMAGQ56t81MHb3b0Ns1tLq/view"/>
            <Items name="porciones cuchareables" link="https://drive.google.com/file/d/1Ffdnr8dfVpdMfGqfk-ShTNVydXOe2wCO/view"/>
@@ -16,7 +16,7 @@ function Portada() {
      
       
       </div>
-       <div className='contenedor'>
+       <div className='contenedor2'>
            {/*<Items name="rappi"/>
            <Items name="pedidosya"/>*/}
            <Items/><Items/><Items/>

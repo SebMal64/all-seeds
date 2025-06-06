@@ -16,7 +16,7 @@
     justify-content: space-around;
     align-items: center;
 }
-.contenedor {
+.contenedor1 {
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -27,17 +27,18 @@
 @media (max-width: 768px) {
 
 .section-portada {
-    padding: 1.5rem;
     background: rgb(202, 181, 181);
     height: auto;
     
 }
-.contenedor {
+.contenedor1 {
     display: grid;
-    background-color: red;
-    justify-content:space-evenly;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: 160px;
-    margin-bottom: 20px;
-    gap: 0px;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: 200px 100px;
+    width: 100dvw;
+
+    background-color: rgb(233, 77, 77);
+
 }}

@@ -11,7 +11,7 @@ function AboutUs() {
 <section className="about bg-danger text-center">
       <img src={pos1} alt="About-us" className='square'/>
      <div className='square text-about'>
-      <h1 className="text-uppercase mb-4">About us</h1>
+      <h1 className="text-uppercase mb-4">¿Quiénes somos?</h1>
       <p className="font-2">
 {Texto_AboutUs_2}</p>
       <ul>
