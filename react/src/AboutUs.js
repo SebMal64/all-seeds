@@ -8,8 +8,8 @@ function AboutUs() {
  //const Texto_AboutUS_3 = "En AllSeeds, todo comenzó con un solo postre hecho en casa y mucho amor por lo natural. Lo que empezó como un pequeño emprendimiento se convirtió en una pasión: demostrar que lo saludable también puede ser delicioso. Desde hace más de 5 años, creamos postres con insumos 100% orgánicos, cuidadosamente seleccionados para brindarte lo mejor de la naturaleza en cada bocado. Ofrecemos opciones dulces, libres de culpa, pensadas para quienes buscan cuidar su bienestar sin renunciar al sabor."
   return (
 
-<section className="about bg-danger text-center">
-      <img src={pos1} alt="About-us" className='square'/>
+<section className="about text-center">
+      <img src={pos1} alt="About-us" className='square img-aboutus'/>
      <div className='square text-about'>
       <h1 className="text-uppercase mb-4">¿Quiénes somos?</h1>
       <p className="font-2">
