@@ -50,6 +50,7 @@ ul {
   }
 
   .square {
+    background-color: var(--claro);
     width: auto;
     height: auto;
     align-items: center;
@@ -62,6 +63,7 @@ ul {
   }
   .img-aboutus {
     margin: 0px 20px;
+    background-color: var(--claro);
     border: 1rem solid rgb(131, 57, 57);
   }
 }
