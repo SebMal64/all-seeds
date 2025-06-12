@@ -24,6 +24,10 @@ function Portada() {
      
       
       </div>
+      <div className='icons'>
+        {/*iconos de whasatpp*/}
+        <icon></icon>
+      </div>
     </section>
    
   );
