@@ -25,7 +25,7 @@ function Portada() {
       
       </div>
       <div className='icons'>
-        {/*iconos de whasatpp*/}
+        {/*iconos de whasatpp revisar iconos de pabinas*/}
         <icon></icon>
       </div>
     </section>
