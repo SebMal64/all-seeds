@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Navegador from './Navegador.js'
 import Portada from './Portada.js'
 import AboutUs from './AboutUs.js';
 import './index.css';
@@ -8,7 +9,11 @@ import Steps from './Steps.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>    
-  <Portada/>
+  <React.StrictMode>  
+      <Navegador/>
+      <Portada/>
+      <AboutUs/>
+      <Steps/>
+ 
   </React.StrictMode>
 );

@@ -4,52 +4,30 @@
 }
 :root {
     --rosado: #FF8580;
+    --pinky:  #fde8e1;
     --sky: #77C7CE;
+    --celeste:  #bee1e7;
 }
 
-.navi {
-    position: relative;
-    display: grid;
-    grid-template-columns: 44% 160px 44%;
-    grid-template-rows: 60px;
-    background: var(--rosado);
-    margin: 65px 0;
-    box-shadow:2px 2px 5px 0px #898484;
-}
-.logo {
-    display: flex;
-    position: relative;
-    background: var(--rosado);
+.nav-bar {
+    top: 0;
+    display: fixed;
+    width: 100dvw;
+    height: 110px;
+    padding: 10px;
+    background: var(--pinky);
+    align-content: center;
     justify-content: center;
-    align-items: center;
-    top: -50px;
-    height: 160px;
-    width: 160px;
+
 }
-.img-logo {
-    display: flex;
-    height: 70px;
-}
-.items {
+.nav-img {
     height: 100%;
-    justify-content: space-around;  
-    display: flex;
-    padding-left:0;
-    align-items: center;
-
+    width: auto;
 }
-.word {
-    list-style: none;
-    text-decoration: none;
-    height: max-content;
-    padding: 10px 35px;
-    border-radius: 20px;
-    overflow: hidden;
-    text-transform: uppercase;
-    font-weight: bolder;
-    color: white
+@media (max-width: 768px) {
+    .nav-bar {
+        height: 80px;
+        padding: 15px;
 
-}
-.word:hover {
-    background-color: #dab7b5;
+    }
 }
