@@ -7,6 +7,7 @@ function Navegador() {
     
     return (
         <div className='nav-bar'>
+      
             <img className="nav-img" src={logo}/>
                 
         </div>

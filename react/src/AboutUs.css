@@ -6,7 +6,7 @@
     --rosado: #FF8580;
     --sky: #77C7CE;
     --claro:#FCE8E1;
-    --plomo: rgb(71, 71, 71);
+    --plomo: rgb(97, 97, 97);
 }
 .about {
     display: grid;
@@ -23,7 +23,7 @@
 
 }
 .square {
-    background-color: var(--claro);
+    background-color: var(--blanco);
     align-content: center;
     height: 100dvh;
     width:100%;
@@ -31,8 +31,9 @@
 }
 .text-about {
     padding: 7rem;
+    padding-right: 10rem;
     text-align: left;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     color:var(--plomo);
 }
 ul {

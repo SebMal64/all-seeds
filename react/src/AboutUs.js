@@ -12,7 +12,7 @@ function AboutUs() {
       <img src={pos1} alt="About-us" className='square img-aboutus'/>
      <div className='square text-about'>
       <h1 className="text-uppercase mb-4">¿Quiénes somos?</h1>
-      <p className="font-2">
+      <p className="texto">
 {Texto_AboutUs_2}</p>
       <ul>
         <li>🌿 Ingredientes 100% naturales</li>
