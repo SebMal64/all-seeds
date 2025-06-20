@@ -9,6 +9,11 @@ function Navegador() {
         <div className='nav-bar'>
       
             <img className="nav-img" src={logo}/>
+            <ul classname="nav-list">
+                <li>Conocenos más..</li>
+                <li>¿Como pedir?</li>
+                <li>Escribenos al whatsapp</li>
+            </ul>
                 
         </div>
     )

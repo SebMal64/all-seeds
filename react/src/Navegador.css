@@ -31,6 +31,12 @@
      align-items: center;
     justify-items: center;
 }
+.nav-list {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-decoration: none;
+}
 @media (max-width: 768px) {
     .nav-bar {
         height: 80px;
