@@ -1,19 +1,30 @@
-
+:root {
+    --rosado: #FF8580;
+    --rosado-claro: #ff8480b8;
+    --pinky:  #fde8e1;
+    --sky: #77C7CE;
+    --celeste:  #bee1e7;
+    --transparente: #fde8e1cb;
+    --blanco: rgb(233, 233, 233);
+}
 
 .cont-item {
-    height: 100px;
-    width: 100px;
-    background: rgb(51, 119, 148);
+    height: 80px;
+    width: 500px;
+    background: var(--celeste);
     border-radius: 10px;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;; 
+}
+.cont-item:hover{
+    transform: scale(1.04);
 }
 
 @media (max-width: 768px) {
 
     .cont-item {
     
-       height: 80px;
+       height: 70px;
        width: 90dvw;
 
     }        

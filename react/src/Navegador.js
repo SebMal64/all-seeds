@@ -1,21 +1,24 @@
 import './Navegador.css';
 import logo from './assets/pictures/logo-oscuro.png'
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import './AboutUs';
+import { useState } from 'react';
 
 function Navegador() {
 
-    
+
     return (
-        <div className='nav-bar'>
-      
-            <img className="nav-img" src={logo}/>
-            <ul classname="nav-list">
-                <li>Conocenos más..</li>
-                <li>¿Como pedir?</li>
-                <li>Escribenos al whatsapp</li>
+        <nav className='nav-bar'>
+
+            <img className="nav-img" src={logo} />
+            <ul className="nav-list">
+                <li className='nav-list-item'>Conocenos más..</li>
+                <li className='nav-list-item'>tarado</li>
+                <li className='nav-list-item'>Conocenos más..</li>
+                <li className='nav-list-item'>tarado</li>
             </ul>
-                
-        </div>
+
+        </nav>
     )
 }
 export default Navegador;
