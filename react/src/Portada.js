@@ -1,6 +1,6 @@
 import './Portada.css';
 import Items from './Items';
-import pastel from './assets/pictures/pastel.png'
+/*import pastel from './assets/pictures/pastel.png'*/
 
 function Portada() {
   return (
