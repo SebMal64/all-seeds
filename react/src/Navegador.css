@@ -19,7 +19,7 @@
   display: flex;
   position: fixed;
   width: 100dvw;
-  height: 100px;
+  height: 80px;
   padding: 10px var(--espacio);
   background: var(--transparente);
   justify-content: space-between;

@@ -1,6 +1,6 @@
 function Steps() {
     return (
-        <section>
+        <section className="section-steps">
         <h1>¿Como pedir?</h1>
         <ul>
             <li>Escoge los postres que deseas pedir</li>

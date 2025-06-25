@@ -13,6 +13,4 @@ return(
 )
 }
 
-
-
-    export default BotonNav;
+export default BotonNav;

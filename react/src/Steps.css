@@ -1,0 +1,9 @@
+.section-steps {
+    height: 100vh;
+    max-width: 100vw;
+    background: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
