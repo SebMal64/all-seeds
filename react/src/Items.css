@@ -20,6 +20,11 @@
     transform: scale(1.04);
 }
 
+.item-pic {
+    background-image: ${};
+    background-position: center center;
+    background-repeat: no-repeat;
+}
 @media (max-width: 768px) {
 
     .cont-item {
