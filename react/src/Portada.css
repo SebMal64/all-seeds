@@ -11,7 +11,7 @@
 .section-portada {
     height: 100vh;
     max-width: 100vw;
-    background: var(--rosado);
+    background: rgb(255, 242, 242);
     display: grid;
     justify-content: space-around;
     align-items: center;
@@ -21,6 +21,10 @@
   display: flex;
     flex-direction: column;
 gap: 20px
+}
+.contenedor2 {
+    display:grid;
+    grid-template-rows: 30px;
 }
 
 @media (max-width: 768px) {

@@ -10,8 +10,8 @@ function Items(props) {
 <button onClick={handleClick} className='cont-item'>  
 
     <img className="item-pic" src={props.picture} alt={props.name}/>
-<p className='text-uppercase'>{props.name}</p>
-    
+<h2 className='texto-item'>{props.name}</h2>
+
      </button>
     );
 }
