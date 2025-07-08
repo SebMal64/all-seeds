@@ -22,16 +22,18 @@ function Portada() {
           picture={elemento_1} link="https://drive.google.com/file/d/1QiuNROxQ9mrMAGQ56t81MHb3b0Ns1tLq/view" />
         <Items name="porciones cuchareables" picture={elemento_2}
           link="https://drive.google.com/file/d/1Ffdnr8dfVpdMfGqfk-ShTNVydXOe2wCO/view" />
-        <Items name="postres de carta" picture={elemento_3} link="https://drive.google.com/file/d/1g4mkcCAJ9hKJIn_AoaPXoevjmW_12wQ3/view" />
-        <Items name="moldes enteros" picture={elemento_4} link="https://drive.google.com/file/d/16me20skVag-J2U2Sv5OB-5ihwDhDRD5-/view" />
 
+        <div className='cont-2'>
+          <Items name="postres de carta" picture={elemento_3} link="https://drive.google.com/file/d/1g4mkcCAJ9hKJIn_AoaPXoevjmW_12wQ3/view" />
+          <Items name="moldes enteros" picture={elemento_4} link="https://drive.google.com/file/d/16me20skVag-J2U2Sv5OB-5ihwDhDRD5-/view" />
+        </div>
 
 
       </div>
-     <div className='contenedor2'>
-           <Items picture={logo1}/>
-           <Items picture={logo2}/>
-           <Items picture={logo3}/> 
+      <div className='cont-3'>
+        <Items picture={logo1} />
+        <Items picture={logo2} />
+        <Items picture={logo3} />
       </div>
       <div className='icons'>
         {/*iconos de whasatpp revisar iconos de pabinas*/}

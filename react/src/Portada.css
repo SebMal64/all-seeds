@@ -22,9 +22,13 @@
     flex-direction: column;
 gap: 20px
 }
-.contenedor2 {
-    display:grid;
-    grid-template-rows: 30px;
+.cont-2 {
+    display: flex;
+    gap: 30px;
+}
+.cont-3 {
+    display:flex;
+    gap: 20px;
 }
 
 @media (max-width: 768px) {
